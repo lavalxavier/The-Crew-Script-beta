@@ -1,5 +1,5 @@
 {
-  "name": "tcs",
+  "name": "the-crew-script-beta",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
@@ -11,5 +11,7 @@
   "devDependencies": {
     "parcel-bundler": "^1.6.1"
   },
-  "keywords": []
+  "keywords": [
+    "the-crew"
+  ]
 }
