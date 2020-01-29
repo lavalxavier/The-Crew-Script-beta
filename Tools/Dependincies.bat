@@ -10,5 +10,6 @@ if NOT %ans%== Y goto Done
 
 :MSF
 powershell Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
-call C:\C:\The-Crew-Script-beta\Tools\INMSF.ps1
+cd C:\The-Crew-Script-beta\Tools
+.\INMSF.ps1
 
