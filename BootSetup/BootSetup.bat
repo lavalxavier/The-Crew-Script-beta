@@ -9,4 +9,4 @@ cls
 cd C:\The-Crew-Script-beta\Tools\HiddenEye
 pip install -r requirements.txt
 python HiddenEye.py
-cd C:\The-Crew-Script-beta\boot\BS2.bat
+cd C:\The-Crew-Script-beta\BootSetup\BS2.bat
