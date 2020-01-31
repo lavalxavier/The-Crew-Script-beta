@@ -1,10 +1,5 @@
 @echo off
- color a
-  cls
-echo This is the 2nd part of the SetUp
-cls
-echo Installing.....
-@echo off
+ echo Setting Up OS ...
     setlocal enableextensions enabledelayedexpansion
 
     Rem Get a carriage return character
@@ -13,7 +8,7 @@ echo Installing.....
     set "fill=[##########]"
 
     cls
-    echo(:: Installing
+    echo(:: Setting Up OS
 
     rem For each character in the fill
     for /l %%a in (2 1 11) do (
@@ -21,11 +16,11 @@ echo Installing.....
         set "spaces=!fill:~%%a!"
 
         rem Output the left and right parts of the bar and carriage return
-        <nul set/p ".=:: Installing The-Crew-Script !fill:~0,%%a!!spaces:#= !!CR!"
+        <nul set/p ".=:: Installing OS file  !fill:~0,%%a!!spaces:#= !!CR!"
 
         rem Pause for a second
         ping -n 2 "" > nul
     )
     echo(
     echo(:: Done
-call C:\The-Crew-Script-beta\BootSetup\BootSetup.bat
+call C:\The-Crew-Script-beta\OS\OS.bat
