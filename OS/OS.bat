@@ -8,26 +8,30 @@ if %name%== Sosigs goto Login
 if %name%== Wesisbest goto Login
 if %name%== Littletoetag goto Login
 if %name%== Sphinx0023 goto Login
+if %name%== Santamoose123 goto Login
  if NOT %name%== GpXavier goto ID
  if NOT %name%== Sosigs goto  ID
  if NOT %name%== Wesisbest goto ID
  if NOT %name%== Littletoetag goto ID
  if NOT %name%== Sphinx0023 goto ID
+ if NOT %name%== Santamoose123 goto ID
 cls
 :Login
 echo %name% Please Login The pass is your username
 echo please type your password
 set /p pass=
-if %pass%== GpXavier goto Login
-if %pass%== Sosigs goto Login
-if %pass%== Wesisbest goto Login
-if %pass%== Littletoetag goto Login
-if %pass%== Sphinx0023 goto Login
+if %pass%== GpXavier goto Menu
+if %pass%== Sosigs goto Menu
+if %pass%== Wesisbest goto Menu
+if %pass%== Littletoetag goto Menu
+if %pass%== Sphinx0023 goto Menu
+if %pass%== Santamoose123 goto Menu
  if NOT %pass%== GpXavier goto ID
  if NOT %pass%== Sosigs goto ID
  if NOT %pass%== Wesisbest goto ID
  if NOT %pass%== Littletoetag goto ID
  if NOT %pass%== Sphinx0023 goto ID
+ if NOT %pass%== Santamoose123 goto ID
 
 :Menu
 cls

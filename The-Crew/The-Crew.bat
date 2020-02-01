@@ -16,3 +16,16 @@ if %cho%== 3 goto EXT
  if NOT %cho%== 1 goto List
  if NOT %cho%== 2 goto List
  if NOT %cho%== 3 goto List
+
+ :INFO
+ cls
+ call C:\The-Crew-Script-beta\List\INFO.bat
+
+ :VERS
+ cls
+ call C:\The-Crew-Script-beta\List\VERS.bat
+
+ :EXT
+ cls
+ bye 
+ exit
