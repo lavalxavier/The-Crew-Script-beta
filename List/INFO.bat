@@ -23,13 +23,10 @@ echo Server Owner Yes
 echo In the-crew Yes
 echo is Friend Yes
 echo More is coming
-
 echo would you like to go back to The-Crew-Script type Y/N
 set /p ans=
 if %ans%== Y goto Cal
 if %ans%== N goto INF
-
-goto INF
 
 :GpXavierI
 cls
@@ -39,13 +36,10 @@ echo Is Devloper Yes
 echo In the-crew Yes
 echo is Friend Yes
 echo More is coming
-
 echo would you like to go back to The-Crew-Script type Y/N
 set /p ans=
 if %ans%== Y goto Cal
 if %ans%== N goto INF
-
-goto INF
 
 :Sphinx0023I
 cls
@@ -54,13 +48,10 @@ echo Server Owner  No
 echo In the-crew Yes
 echo is Friend Yes
 echo More is coming
-
 echo would you like to go back to The-Crew-Script type Y/N
 set /p ans=
 if %ans%== Y goto Cal
 if %ans%== N goto INF
-
-goto INF
 
 :WesisbestI
 cls
@@ -69,13 +60,10 @@ echo Server Owner No
 echo In the-crew Yes
 echo is Friend Yes
 echo More is coming
-
 echo would you like to go back to The-Crew-Script type Y/N
 set /p ans=
 if %ans%== Y goto Cal
 if %ans%== N goto INF
-
-goto INF
 
 :LittletoetagI
 cls
@@ -84,13 +72,10 @@ echo Server Owner No
 echo In the-crew Yes
 echo is Friend Yes
 echo More is coming
-
 echo would you like to go back to The-Crew-Script type Y/N
 set /p ans=
 if %ans%== Y goto Cal
 if %ans%== N goto INF
-
-goto INF
 
 :Santamoose123I
 echo Minecraft name Santamoose123
@@ -98,7 +83,6 @@ echo Server Owner No
 echo In the-crew Yes
 echo is Friend Yes
 echo More is coming
-
 echo would you like to go back to The-Crew-Script type Y/N
 set /p ans=
 if %ans%== Y goto Cal
@@ -108,5 +92,5 @@ if %ans%== N goto INF
 cls
 call C:\The-Crew-Script-beta\The-Crew\The-Crew.bat
 
-goto INF
+
 
