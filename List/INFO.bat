@@ -19,5 +19,49 @@ if %name%== Santamoose123 goto Santamoose123I
 
 :SosigsI
 cls
-
+echo Minecraft name Sosigs
+echo Server Owner Yes
+echo In the-crew Yes
+echo is Friend Yes
+echo More is coming
+goto INFO
 :GpXavierI
+cls
+echo Minecraft name GpXavier
+echo Server Owner NO
+echo Is Devloper Yes
+echo In the-crew Yes
+echo is Friend Yes
+echo More is coming
+goto INFO
+:Sphinx0023I
+cls
+echo Minecraft name Sphinx0023
+echo Server Owner  No
+echo In the-crew Yes
+echo is Friend Yes
+echo More is coming
+goto INFO
+:WesisbestI
+cls
+echo Minecraft name Wesisbest
+echo Server Owner No
+echo In the-crew Yes
+echo is Friend Yes
+echo More is coming
+goto INFO
+:LittletoetagI
+cls
+echo Minecraft name Littletoetag
+echo Server Owner No
+echo In the-crew Yes
+echo is Friend Yes
+echo More is coming
+goto INFO
+:Santamoose123I
+echo Minecraft name Santamoose123
+echo Server Owner No
+echo In the-crew Yes
+echo is Friend Yes
+echo More is coming
+goto INFO
