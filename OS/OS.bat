@@ -1,5 +1,6 @@
 @echo off
  echo welcome to The-Crew-Script-beta
+
 :ID
 echo If you are in the Crew please type your MC name
 set /p name=
@@ -50,3 +51,12 @@ call C:\The-Crew-Script-beta\The-Crew\The-Crew.bat
 cls
 setx path "%path%;c:\The-Crew-Script-beta\The-Crew\"
 call C:\The-Crew-Script-beta\The-Crew\The-Crew.bat
+
+echo If you are in the Crew please type your MC name
+set /p name=
+if %name%== GpXavier
+if %name%== Sosigs
+if %name%== Wesisbest
+if %name%== Littletoetag
+if %name%== Sphinx0023
+
