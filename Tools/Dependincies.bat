@@ -1,4 +1,5 @@
 @echo off
+cd C:\The-Crew-Script-beta\Tools
 git clone https://github.com/DarkSecDevelopers/HiddenEye.git
 git clone https://github.com/m0rtem/CloudFail.git
 git clone https://github.com/google/closure-library.git
